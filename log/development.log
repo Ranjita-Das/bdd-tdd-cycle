@@ -825,3 +825,4 @@ Served asset /jquery.js - 304 Not Modified (1ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 165.91.49.219 at 2016-04-02 04:53:16 +0000
 Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
