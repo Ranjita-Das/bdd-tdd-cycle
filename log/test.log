@@ -795,3 +795,142 @@ Processing by MoviesController#index as HTML
   Rendered movies/index.html.haml within layouts/application (10.7ms)
 Completed 200 OK in 18.0ms (Views: 15.1ms | ActiveRecord: 0.3ms)
   [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#update as HTML
+  Parameters: {"movie"=>["#[RSpec::Mocks::Mock:0x1e65234 @name=\"movie1\"]"], "id"=>"5"}
+Redirected to http://test.host/movies/%23%5BRSpec::Mocks::Mock:0x1e60270%20@name=%22double%22%5D
+Completed 302 Found in 2.2ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#update as HTML
+  Parameters: {"movie"=>["#[RSpec::Mocks::Mock:0x1e817cc @name=\"movie1\"]"], "id"=>"5"}
+Redirected to http://test.host/movies/%23%5BRSpec::Mocks::Mock:0x1e8082c%20@name=%22double%22%5D
+Completed 302 Found in 1.0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#update as HTML
+  Parameters: {"movie"=>["#[RSpec::Mocks::Mock:0x1eb5144 @name=\"movie1\"]"], "id"=>"5"}
+Redirected to http://test.host/movies/%23%5BRSpec::Mocks::Mock:0x1eb19e0%20@name=%22double%22%5D
+Completed 302 Found in 0.9ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"5"}
+Completed 200 OK in 92.2ms (Views: 91.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#destroy as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed 302 Found in 0.9ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#same_director as HTML
+  Parameters: {"id"=>"10"}
+Completed 200 OK in 4.0ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#same_director as HTML
+  Parameters: {"id"=>"10"}
+Redirected to http://test.host/movies
+Completed 302 Found in 0.9ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#same_director as HTML
+  Parameters: {"id"=>"10"}
+Completed 200 OK in 1.2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#same_director as HTML
+  Parameters: {"id"=>"10"}
+Completed 200 OK in 1.7ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#new as HTML
+Completed 200 OK in 4.7ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#create as HTML
+  Parameters: {"movie"=>"#[RSpec::Mocks::Mock:0x1f0d4ac @name=\"new movie\"]"}
+Redirected to http://test.host/movies
+Completed 302 Found in 1.0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#create as HTML
+  Parameters: {"movie"=>"#[RSpec::Mocks::Mock:0x1f15ddc @name=\"new movie\"]"}
+Redirected to http://test.host/movies
+Completed 302 Found in 0.7ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#update as HTML
+  Parameters: {"movie"=>["#[RSpec::Mocks::Mock:0x2a7a59c @name=\"movie1\"]"], "id"=>"5"}
+Redirected to http://test.host/movies/%23%5BRSpec::Mocks::Mock:0x2a6c028%20@name=%22double%22%5D
+Completed 302 Found in 1.5ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#update as HTML
+  Parameters: {"movie"=>["#[RSpec::Mocks::Mock:0x2bc6090 @name=\"movie1\"]"], "id"=>"5"}
+Redirected to http://test.host/movies/%23%5BRSpec::Mocks::Mock:0x2ab0228%20@name=%22double%22%5D
+Completed 302 Found in 0.9ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#update as HTML
+  Parameters: {"movie"=>["#[RSpec::Mocks::Mock:0x2b46da4 @name=\"movie1\"]"], "id"=>"5"}
+Redirected to http://test.host/movies/%23%5BRSpec::Mocks::Mock:0x2b429fc%20@name=%22double%22%5D
+Completed 302 Found in 1.4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#same_director as HTML
+  Parameters: {"id"=>"10"}
+Completed 200 OK in 99.7ms (Views: 98.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#same_director as HTML
+  Parameters: {"id"=>"10"}
+Completed 200 OK in 1.6ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#same_director as HTML
+  Parameters: {"id"=>"10"}
+Completed 200 OK in 1.8ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#same_director as HTML
+  Parameters: {"id"=>"10"}
+Redirected to http://test.host/movies
+Completed 302 Found in 0.9ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#new as HTML
+Completed 200 OK in 3.0ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#create as HTML
+  Parameters: {"movie"=>"#[RSpec::Mocks::Mock:0x2b09c10 @name=\"new movie\"]"}
+Redirected to http://test.host/movies
+Completed 302 Found in 1.5ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#create as HTML
+  Parameters: {"movie"=>"#[RSpec::Mocks::Mock:0x298b30c @name=\"new movie\"]"}
+Redirected to http://test.host/movies
+Completed 302 Found in 1.1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"5"}
+Completed 200 OK in 3.0ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MoviesController#destroy as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed 302 Found in 1.3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
